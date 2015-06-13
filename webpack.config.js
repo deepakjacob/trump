@@ -1,3 +1,4 @@
+
 module.exports = {
   entry: './index.jsx',
   output: {
@@ -14,10 +15,11 @@ module.exports = {
         test: /\.jsx$/,
         loader: 'jsx-loader?insertPragma=React.DOM&harmony'
       },
-      // SASS
+        // SASS
+      
       {
         test: /\.scss$/,
-        loader: 'style!css!sass'
+        loader: "style-loader!css-loader!sass-loader"
       }
     ]
   },
@@ -30,7 +32,8 @@ module.exports = {
     extensions: [
       '',
       '.js',
-      '.jsx'
+      '.jsx',
+      '.scss'
     ]
   }
 }

@@ -24,7 +24,7 @@ module.exports = React.createClass( {
 
   render: function () {
     if ( !this.state.isCreate ) {
-      var boundClick = this.handleClick.bind( this );
+      var boundClick = this.handleClick;
 
       return (
       <CardComposerLink onClick={boundClick}/>

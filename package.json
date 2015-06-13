@@ -1,23 +1,26 @@
 {
-
-    "name": "trump",
-    "version": "0.1.0",
-    "description": "Yet another todo app.",
-    "main": "index.js",
-    "scripts": {
-        "start": "npm run serve | npm run dev",
-        "serve": "./node_modules/.bin/http-server -p 8080",
-        "dev": "webpack-dev-server --progress --colors --port 8090",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "react": "^0.13.1"
-    },
-    "devDependencies": {
-        "http-server": "^0.8.0",
-        "webpack": "^1.8.5",
-        "webpack-dev-server": "^1.8.0"
-    }
+  "name": "trump",
+  "version": "0.1.0",
+  "description": "Yet another todo app.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run serve | npm run dev",
+    "serve": "./node_modules/.bin/http-server -p 8080",
+    "dev": "webpack-dev-server --progress --colors --port 8090",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^0.13.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.14.5",
+    "http-server": "^0.8.0",
+    "jsx-loader": "^0.13.2",
+    "sass-loader": "^1.0.2",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.8.5",
+    "webpack-dev-server": "^1.8.0"
+  }
 }
