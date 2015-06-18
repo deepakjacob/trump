@@ -3,6 +3,7 @@
 
 var HeaderLogo = require( './HeaderLogo.jsx' );
 
+require("./stylesheets/normalize")
 require("./stylesheets/modules/header")
 
 module.exports = React.createClass( {
